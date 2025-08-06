@@ -1,0 +1,11 @@
+$schema: inst_schema.json#
+kind: instruction
+name: andn
+long_name: AND with inverted operand
+description: >
+  Performs the bitwise logical AND operation between `xs1` and the bitwise inversion of `xs2`.
+access_s: always
+access_u: always
+access_vs: always
+access_vu: always
+data_independent_timing: true
